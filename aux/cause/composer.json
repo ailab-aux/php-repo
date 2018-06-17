@@ -1,0 +1,31 @@
+{
+  "name": "aux/cause",
+  "description": "composer's satis private repo test",
+  "keywords": [
+    "test", "composer", "satis", "aux", "cause"
+  ],
+  "homepage": "http://auxkube.top",
+  "license": "GPLv3",
+  "version": "0.1",
+  "authors":[
+    {
+      "name": "aux",
+      "homepage": "http://auxkube.top",
+      "role": "Developer"
+    }
+  ],
+  "support":{
+    "email": "ai_challenge@163.com"
+  },
+  "require":{
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0" 
+  },
+  "autoload": {
+    "psr-4":{
+      "aux\\": "src/"
+    }
+  }
+}
