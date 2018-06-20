@@ -6,7 +6,7 @@
   ],
   "homepage": "http://auxkube.top",
   "license": "GPLv3",
-  "version": "0.1",
+  "version": "1.0.0",
   "authors":[
     {
       "name": "aux",
@@ -23,6 +23,7 @@
   "require-dev": {
     "phpunit/phpunit": "~6.0" 
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4":{
       "aux\\": "src/"
